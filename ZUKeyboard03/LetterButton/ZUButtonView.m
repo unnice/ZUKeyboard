@@ -6,9 +6,9 @@
 //  Copyright © 2017 Xapek86. All rights reserved.
 //
 
-#import "ZULetterButtonView.h"
+#import "ZUButtonView.h"
 
-@implementation ZULetterButtonView
+@implementation ZUButtonView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

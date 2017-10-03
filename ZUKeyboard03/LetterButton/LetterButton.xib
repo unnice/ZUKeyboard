@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZULetterButtonView">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZUButtonView">
             <connections>
                 <outlet property="button" destination="om4-v3-Gzc" id="q1v-gB-G1X"/>
                 <outlet property="buttonTitle" destination="MeG-dZ-cEW" id="cpQ-3R-dLO"/>

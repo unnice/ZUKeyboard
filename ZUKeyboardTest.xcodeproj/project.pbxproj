@@ -20,8 +20,8 @@
 		8E3BEDD81F7C170500C49599 /* ZULetterKeysView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BEDD61F7C170500C49599 /* ZULetterKeysView.m */; };
 		8E3BEDDF1F7CB03400C49599 /* LetterButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E3BEDDE1F7CB03400C49599 /* LetterButton.xib */; };
 		8E3BEDE01F7CB03400C49599 /* LetterButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E3BEDDE1F7CB03400C49599 /* LetterButton.xib */; };
-		8E3BEDE31F7CB2ED00C49599 /* ZULetterButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BEDE21F7CB2ED00C49599 /* ZULetterButtonView.m */; };
-		8E3BEDE41F7CB2ED00C49599 /* ZULetterButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BEDE21F7CB2ED00C49599 /* ZULetterButtonView.m */; };
+		8E3BEDE31F7CB2ED00C49599 /* ZUButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BEDE21F7CB2ED00C49599 /* ZUButtonView.m */; };
+		8E3BEDE41F7CB2ED00C49599 /* ZUButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BEDE21F7CB2ED00C49599 /* ZUButtonView.m */; };
 		8E578AC11F7D7EA100F85F53 /* ZULetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E578AC01F7D7EA100F85F53 /* ZULetter.m */; };
 		8E578AC41F7D860E00F85F53 /* ZULetterRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E578AC31F7D860E00F85F53 /* ZULetterRow.m */; };
 		8E578AC71F7D8A6800F85F53 /* ZUAlphabet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E578AC61F7D8A6800F85F53 /* ZUAlphabet.m */; };
@@ -76,8 +76,8 @@
 		8E3BEDD51F7C170500C49599 /* ZULetterKeysView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZULetterKeysView.h; sourceTree = "<group>"; };
 		8E3BEDD61F7C170500C49599 /* ZULetterKeysView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZULetterKeysView.m; sourceTree = "<group>"; };
 		8E3BEDDE1F7CB03400C49599 /* LetterButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LetterButton.xib; sourceTree = "<group>"; };
-		8E3BEDE11F7CB2ED00C49599 /* ZULetterButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZULetterButtonView.h; sourceTree = "<group>"; };
-		8E3BEDE21F7CB2ED00C49599 /* ZULetterButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZULetterButtonView.m; sourceTree = "<group>"; };
+		8E3BEDE11F7CB2ED00C49599 /* ZUButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZUButtonView.h; sourceTree = "<group>"; };
+		8E3BEDE21F7CB2ED00C49599 /* ZUButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZUButtonView.m; sourceTree = "<group>"; };
 		8E4B12E51F757B3B00C0C3B3 /* ZUKeyboardTest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ZUKeyboardTest copy-Info.plist"; path = "/Users/xapeklernov/Dropbox/work/ZUKeyboardTest/ZUKeyboardTest copy-Info.plist"; sourceTree = "<absolute>"; };
 		8E578ABF1F7D7EA100F85F53 /* ZULetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZULetter.h; sourceTree = "<group>"; };
 		8E578AC01F7D7EA100F85F53 /* ZULetter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZULetter.m; sourceTree = "<group>"; };
@@ -176,8 +176,8 @@
 		8E3BEDDD1F7CAFEE00C49599 /* LetterButton */ = {
 			isa = PBXGroup;
 			children = (
-				8E3BEDE11F7CB2ED00C49599 /* ZULetterButtonView.h */,
-				8E3BEDE21F7CB2ED00C49599 /* ZULetterButtonView.m */,
+				8E3BEDE11F7CB2ED00C49599 /* ZUButtonView.h */,
+				8E3BEDE21F7CB2ED00C49599 /* ZUButtonView.m */,
 				8E3BEDDE1F7CB03400C49599 /* LetterButton.xib */,
 				8E578ABF1F7D7EA100F85F53 /* ZULetter.h */,
 				8E578AC01F7D7EA100F85F53 /* ZULetter.m */,
@@ -307,7 +307,7 @@
 			files = (
 				75683A1B1F5719F200018831 /* ViewController.m in Sources */,
 				8E7BD65A1F80E2DE003D6715 /* ZULetterRow.m in Sources */,
-				8E3BEDE31F7CB2ED00C49599 /* ZULetterButtonView.m in Sources */,
+				8E3BEDE31F7CB2ED00C49599 /* ZUButtonView.m in Sources */,
 				8E3BEDD71F7C170500C49599 /* ZULetterKeysView.m in Sources */,
 				8E7BD6591F80E2DA003D6715 /* ZULetter.m in Sources */,
 				7504BC691F705CA800C4DE7D /* ZUViewTest.m in Sources */,
@@ -321,7 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E3BEDE41F7CB2ED00C49599 /* ZULetterButtonView.m in Sources */,
+				8E3BEDE41F7CB2ED00C49599 /* ZUButtonView.m in Sources */,
 				8E578AC71F7D8A6800F85F53 /* ZUAlphabet.m in Sources */,
 				8E578AC41F7D860E00F85F53 /* ZULetterRow.m in Sources */,
 				8E578AC11F7D7EA100F85F53 /* ZULetter.m in Sources */,

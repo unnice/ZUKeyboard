@@ -73,7 +73,7 @@ static CGFloat buttonHeight = 40;
         
         for (ZULetter* letter in [qwertyAlpha.letterRows[i] letters])
         {
-            ZULetterButtonView* button = [[ZULetterButtonView alloc] initWithFrame:CGRectMake(0, 0, 30, 40)];
+            ZUButtonView* button = [[ZUButtonView alloc] initWithFrame:CGRectMake(0, 0, 30, 40)];
             [button setLetter:letter];
             button.translatesAutoresizingMaskIntoConstraints = NO;
             [stackView addArrangedSubview:button];

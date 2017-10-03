@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ZULetterButtonView.h"
+#import "ZUButtonView.h"
 #import "ZUAlphabet.h"
 
 
 @interface ZULetterKeysView : UIView <ZUKeyboardButtonDelegate>
 //@property (strong, nonatomic) ZULetterButtonView* button;
-@property (strong, nonatomic) NSArray<ZULetterButtonView*>* letterButtons;
+@property (strong, nonatomic) NSArray<ZUButtonView*>* letterButtons;
 @property (assign, nonatomic) CGFloat viewHeight;
 @property (weak, nonatomic) id <ZUKeyboardButtonDelegate> delegate;
 
