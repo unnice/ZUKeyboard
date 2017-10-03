@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ZUKeyboard.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ZUKeyboard03.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>ZUKeyboardTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +23,21 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>75683A0F1F5719F200018831</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>75683A2D1F571ABE00018831</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8E1EA3381F79876D0088B0E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8E4B12FA1F757CBC00C0C3B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

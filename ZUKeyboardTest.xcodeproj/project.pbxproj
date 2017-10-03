@@ -7,15 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7504BC691F705CA800C4DE7D /* ZUViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7504BC681F705CA800C4DE7D /* ZUViewTest.m */; };
 		75683A151F5719F200018831 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75683A141F5719F200018831 /* main.m */; };
 		75683A181F5719F200018831 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75683A171F5719F200018831 /* AppDelegate.m */; };
 		75683A1B1F5719F200018831 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75683A1A1F5719F200018831 /* ViewController.m */; };
 		75683A1E1F5719F200018831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75683A1C1F5719F200018831 /* Main.storyboard */; };
 		75683A201F5719F200018831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75683A1F1F5719F200018831 /* Assets.xcassets */; };
 		75683A231F5719F200018831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75683A211F5719F200018831 /* LaunchScreen.storyboard */; };
+		75683A3F1F589DE700018831 /* ZUKeyboardView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75683A3E1F589DE700018831 /* ZUKeyboardView2.xib */; };
+		8E14B7FD1F7455CF00A7DF49 /* ZUButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E14B7FB1F7455CF00A7DF49 /* ZUButton.m */; };
+		8E14B7FF1F7455CF00A7DF49 /* ZUButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E14B7FC1F7455CF00A7DF49 /* ZUButton.xib */; };
+		8E14B8031F7456F100A7DF49 /* ZUTestButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E14B8021F7456F100A7DF49 /* ZUTestButton.m */; };
+		8E1EA33D1F79876D0088B0E4 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EA33C1F79876D0088B0E4 /* KeyboardViewController.m */; };
+		8E1EA3411F79876D0088B0E4 /* ZUKeyboard03.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8E1EA3391F79876D0088B0E4 /* ZUKeyboard03.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8E1EA3511F79953F0088B0E4 /* ZUKeyboardView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EA3481F798D230088B0E4 /* ZUKeyboardView.xib */; };
+		8E1EA3541F7995B40088B0E4 /* View03.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EA3531F7995B40088B0E4 /* View03.m */; };
+		8E1EA3551F7995B40088B0E4 /* View03.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1EA3531F7995B40088B0E4 /* View03.m */; };
+		8E1EA3571F7995C80088B0E4 /* View03.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EA3561F7995C80088B0E4 /* View03.xib */; };
+		8E1EA3581F7995C80088B0E4 /* View03.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EA3561F7995C80088B0E4 /* View03.xib */; };
+		8E1EA3591F7999540088B0E4 /* View03.h in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EA3521F7995B40088B0E4 /* View03.h */; };
+		8E1EA35A1F79995A0088B0E4 /* View03.m in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EA3531F7995B40088B0E4 /* View03.m */; };
+		8E1EA35B1F799BB90088B0E4 /* ZUButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E14B7FB1F7455CF00A7DF49 /* ZUButton.m */; };
+		8E1EA35C1F799BBF0088B0E4 /* ZUButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E14B7FC1F7455CF00A7DF49 /* ZUButton.xib */; };
+		8E3BEDD71F7C170500C49599 /* ZULetterKeysView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BEDD61F7C170500C49599 /* ZULetterKeysView.m */; };
+		8E3BEDD81F7C170500C49599 /* ZULetterKeysView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BEDD61F7C170500C49599 /* ZULetterKeysView.m */; };
+		8E3BEDDB1F7C1DD300C49599 /* ZUKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BEDDA1F7C1DD300C49599 /* ZUKeyboardView.m */; };
+		8E3BEDDC1F7C1DD300C49599 /* ZUKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BEDDA1F7C1DD300C49599 /* ZUKeyboardView.m */; };
+		8E3BEDDF1F7CB03400C49599 /* LetterButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E3BEDDE1F7CB03400C49599 /* LetterButton.xib */; };
+		8E3BEDE01F7CB03400C49599 /* LetterButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E3BEDDE1F7CB03400C49599 /* LetterButton.xib */; };
+		8E3BEDE31F7CB2ED00C49599 /* ZULetterButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BEDE21F7CB2ED00C49599 /* ZULetterButtonView.m */; };
+		8E3BEDE41F7CB2ED00C49599 /* ZULetterButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E3BEDE21F7CB2ED00C49599 /* ZULetterButtonView.m */; };
+		8E578A9C1F7D63F200F85F53 /* ZUKeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E1EA3481F798D230088B0E4 /* ZUKeyboardView.xib */; };
+		8E578AC11F7D7EA100F85F53 /* ZULetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E578AC01F7D7EA100F85F53 /* ZULetter.m */; };
+		8E578AC41F7D860E00F85F53 /* ZULetterRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E578AC31F7D860E00F85F53 /* ZULetterRow.m */; };
+		8E578AC71F7D8A6800F85F53 /* ZUAlphabet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E578AC61F7D8A6800F85F53 /* ZUAlphabet.m */; };
+		8E7BD6591F80E2DA003D6715 /* ZULetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E578AC01F7D7EA100F85F53 /* ZULetter.m */; };
+		8E7BD65A1F80E2DE003D6715 /* ZULetterRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E578AC31F7D860E00F85F53 /* ZULetterRow.m */; };
+		8E7BD65B1F80E2E0003D6715 /* ZUAlphabet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E578AC61F7D8A6800F85F53 /* ZUAlphabet.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8E1EA33F1F79876D0088B0E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75683A081F5719F200018831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E1EA3381F79876D0088B0E4;
+			remoteInfo = ZUKeyboard03;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		75683A3A1F571ABE00018831 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8E1EA3411F79876D0088B0E4 /* ZUKeyboard03.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7504BC671F705CA800C4DE7D /* ZUViewTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZUViewTest.h; sourceTree = "<group>"; };
+		7504BC681F705CA800C4DE7D /* ZUViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZUViewTest.m; sourceTree = "<group>"; };
 		75683A101F5719F200018831 /* ZUKeyboardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZUKeyboardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75683A141F5719F200018831 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75683A161F5719F200018831 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,10 +83,50 @@
 		75683A1F1F5719F200018831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75683A221F5719F200018831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75683A241F5719F200018831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75683A3E1F589DE700018831 /* ZUKeyboardView2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZUKeyboardView2.xib; sourceTree = "<group>"; };
+		8E14B7FA1F7455CF00A7DF49 /* ZUButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZUButton.h; sourceTree = SOURCE_ROOT; };
+		8E14B7FB1F7455CF00A7DF49 /* ZUButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZUButton.m; sourceTree = SOURCE_ROOT; };
+		8E14B7FC1F7455CF00A7DF49 /* ZUButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZUButton.xib; sourceTree = SOURCE_ROOT; };
+		8E14B8011F7456F100A7DF49 /* ZUTestButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZUTestButton.h; sourceTree = "<group>"; };
+		8E14B8021F7456F100A7DF49 /* ZUTestButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZUTestButton.m; sourceTree = "<group>"; };
+		8E1EA3391F79876D0088B0E4 /* ZUKeyboard03.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ZUKeyboard03.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1EA33B1F79876D0088B0E4 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		8E1EA33C1F79876D0088B0E4 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		8E1EA33E1F79876D0088B0E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E1EA3461F798B360088B0E4 /* ZUKeyboardTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZUKeyboardTest.entitlements; sourceTree = "<group>"; };
+		8E1EA3471F798B3C0088B0E4 /* ZUKeyboard03.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZUKeyboard03.entitlements; sourceTree = "<group>"; };
+		8E1EA3481F798D230088B0E4 /* ZUKeyboardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZUKeyboardView.xib; sourceTree = "<group>"; };
+		8E1EA3521F7995B40088B0E4 /* View03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = View03.h; sourceTree = "<group>"; };
+		8E1EA3531F7995B40088B0E4 /* View03.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = View03.m; sourceTree = "<group>"; };
+		8E1EA3561F7995C80088B0E4 /* View03.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View03.xib; sourceTree = "<group>"; };
+		8E3BEDD51F7C170500C49599 /* ZULetterKeysView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZULetterKeysView.h; sourceTree = "<group>"; };
+		8E3BEDD61F7C170500C49599 /* ZULetterKeysView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZULetterKeysView.m; sourceTree = "<group>"; };
+		8E3BEDD91F7C1DD300C49599 /* ZUKeyboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZUKeyboardView.h; sourceTree = "<group>"; };
+		8E3BEDDA1F7C1DD300C49599 /* ZUKeyboardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZUKeyboardView.m; sourceTree = "<group>"; };
+		8E3BEDDE1F7CB03400C49599 /* LetterButton.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LetterButton.xib; sourceTree = "<group>"; };
+		8E3BEDE11F7CB2ED00C49599 /* ZULetterButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZULetterButtonView.h; sourceTree = "<group>"; };
+		8E3BEDE21F7CB2ED00C49599 /* ZULetterButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZULetterButtonView.m; sourceTree = "<group>"; };
+		8E4B12E51F757B3B00C0C3B3 /* ZUKeyboardTest copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ZUKeyboardTest copy-Info.plist"; path = "/Users/xapeklernov/Dropbox/work/ZUKeyboardTest/ZUKeyboardTest copy-Info.plist"; sourceTree = "<absolute>"; };
+		8E4B12FD1F757CBC00C0C3B3 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		8E4B12FE1F757CBC00C0C3B3 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		8E4B13001F757CBC00C0C3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E578ABF1F7D7EA100F85F53 /* ZULetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZULetter.h; sourceTree = "<group>"; };
+		8E578AC01F7D7EA100F85F53 /* ZULetter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZULetter.m; sourceTree = "<group>"; };
+		8E578AC21F7D860E00F85F53 /* ZULetterRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZULetterRow.h; sourceTree = "<group>"; };
+		8E578AC31F7D860E00F85F53 /* ZULetterRow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZULetterRow.m; sourceTree = "<group>"; };
+		8E578AC51F7D8A6800F85F53 /* ZUAlphabet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZUAlphabet.h; sourceTree = "<group>"; };
+		8E578AC61F7D8A6800F85F53 /* ZUAlphabet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZUAlphabet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		75683A0D1F5719F200018831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1EA3361F79876D0088B0E4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,8 +139,16 @@
 		75683A071F5719F200018831 = {
 			isa = PBXGroup;
 			children = (
+				8E14B8011F7456F100A7DF49 /* ZUTestButton.h */,
+				8E14B8021F7456F100A7DF49 /* ZUTestButton.m */,
+				8E14B7FA1F7455CF00A7DF49 /* ZUButton.h */,
+				8E14B7FB1F7455CF00A7DF49 /* ZUButton.m */,
+				8E14B7FC1F7455CF00A7DF49 /* ZUButton.xib */,
 				75683A121F5719F200018831 /* ZUKeyboardTest */,
+				8E4B12FC1F757CBC00C0C3B3 /* ZUKeyboard */,
+				8E1EA33A1F79876D0088B0E4 /* ZUKeyboard03 */,
 				75683A111F5719F200018831 /* Products */,
+				8E4B12E51F757B3B00C0C3B3 /* ZUKeyboardTest copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				75683A101F5719F200018831 /* ZUKeyboardTest.app */,
+				8E1EA3391F79876D0088B0E4 /* ZUKeyboard03.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +164,7 @@
 		75683A121F5719F200018831 /* ZUKeyboardTest */ = {
 			isa = PBXGroup;
 			children = (
+				8E1EA3461F798B360088B0E4 /* ZUKeyboardTest.entitlements */,
 				75683A161F5719F200018831 /* AppDelegate.h */,
 				75683A171F5719F200018831 /* AppDelegate.m */,
 				75683A191F5719F200018831 /* ViewController.h */,
@@ -67,6 +174,8 @@
 				75683A211F5719F200018831 /* LaunchScreen.storyboard */,
 				75683A241F5719F200018831 /* Info.plist */,
 				75683A131F5719F200018831 /* Supporting Files */,
+				7504BC671F705CA800C4DE7D /* ZUViewTest.h */,
+				7504BC681F705CA800C4DE7D /* ZUViewTest.m */,
 			);
 			path = ZUKeyboardTest;
 			sourceTree = "<group>";
@@ -79,6 +188,61 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8E1EA33A1F79876D0088B0E4 /* ZUKeyboard03 */ = {
+			isa = PBXGroup;
+			children = (
+				8E3BEDDD1F7CAFEE00C49599 /* LetterButton */,
+				8E3BEDD41F7C168400C49599 /* KeyBlock */,
+				8E1EA3471F798B3C0088B0E4 /* ZUKeyboard03.entitlements */,
+				8E1EA33B1F79876D0088B0E4 /* KeyboardViewController.h */,
+				8E1EA33C1F79876D0088B0E4 /* KeyboardViewController.m */,
+				8E1EA3481F798D230088B0E4 /* ZUKeyboardView.xib */,
+				8E3BEDD91F7C1DD300C49599 /* ZUKeyboardView.h */,
+				8E3BEDDA1F7C1DD300C49599 /* ZUKeyboardView.m */,
+				8E1EA33E1F79876D0088B0E4 /* Info.plist */,
+				8E1EA3521F7995B40088B0E4 /* View03.h */,
+				8E1EA3531F7995B40088B0E4 /* View03.m */,
+				8E1EA3561F7995C80088B0E4 /* View03.xib */,
+			);
+			path = ZUKeyboard03;
+			sourceTree = "<group>";
+		};
+		8E3BEDD41F7C168400C49599 /* KeyBlock */ = {
+			isa = PBXGroup;
+			children = (
+				8E3BEDD51F7C170500C49599 /* ZULetterKeysView.h */,
+				8E3BEDD61F7C170500C49599 /* ZULetterKeysView.m */,
+			);
+			path = KeyBlock;
+			sourceTree = "<group>";
+		};
+		8E3BEDDD1F7CAFEE00C49599 /* LetterButton */ = {
+			isa = PBXGroup;
+			children = (
+				8E3BEDE11F7CB2ED00C49599 /* ZULetterButtonView.h */,
+				8E3BEDE21F7CB2ED00C49599 /* ZULetterButtonView.m */,
+				8E3BEDDE1F7CB03400C49599 /* LetterButton.xib */,
+				8E578ABF1F7D7EA100F85F53 /* ZULetter.h */,
+				8E578AC01F7D7EA100F85F53 /* ZULetter.m */,
+				8E578AC21F7D860E00F85F53 /* ZULetterRow.h */,
+				8E578AC31F7D860E00F85F53 /* ZULetterRow.m */,
+				8E578AC51F7D8A6800F85F53 /* ZUAlphabet.h */,
+				8E578AC61F7D8A6800F85F53 /* ZUAlphabet.m */,
+			);
+			path = LetterButton;
+			sourceTree = "<group>";
+		};
+		8E4B12FC1F757CBC00C0C3B3 /* ZUKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8E4B12FD1F757CBC00C0C3B3 /* KeyboardViewController.h */,
+				8E4B12FE1F757CBC00C0C3B3 /* KeyboardViewController.m */,
+				75683A3E1F589DE700018831 /* ZUKeyboardView2.xib */,
+				8E4B13001F757CBC00C0C3B3 /* Info.plist */,
+			);
+			path = ZUKeyboard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,15 +253,34 @@
 				75683A0C1F5719F200018831 /* Sources */,
 				75683A0D1F5719F200018831 /* Frameworks */,
 				75683A0E1F5719F200018831 /* Resources */,
+				75683A3A1F571ABE00018831 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8E1EA3401F79876D0088B0E4 /* PBXTargetDependency */,
 			);
 			name = ZUKeyboardTest;
 			productName = ZUKeyboardTest;
 			productReference = 75683A101F5719F200018831 /* ZUKeyboardTest.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8E1EA3381F79876D0088B0E4 /* ZUKeyboard03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1EA3421F79876D0088B0E4 /* Build configuration list for PBXNativeTarget "ZUKeyboard03" */;
+			buildPhases = (
+				8E1EA3351F79876D0088B0E4 /* Sources */,
+				8E1EA3361F79876D0088B0E4 /* Frameworks */,
+				8E1EA3371F79876D0088B0E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZUKeyboard03;
+			productName = ZUKeyboard03;
+			productReference = 8E1EA3391F79876D0088B0E4 /* ZUKeyboard03.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -105,13 +288,28 @@
 		75683A081F5719F200018831 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Xapek86;
 				TargetAttributes = {
 					75683A0F1F5719F200018831 = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = PFKEF5GQ5B;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					8E1EA3381F79876D0088B0E4 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = PFKEF5GQ5B;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -129,6 +327,7 @@
 			projectRoot = "";
 			targets = (
 				75683A0F1F5719F200018831 /* ZUKeyboardTest */,
+				8E1EA3381F79876D0088B0E4 /* ZUKeyboard03 */,
 			);
 		};
 /* End PBXProject section */
@@ -139,8 +338,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				75683A231F5719F200018831 /* LaunchScreen.storyboard in Resources */,
+				8E3BEDDF1F7CB03400C49599 /* LetterButton.xib in Resources */,
+				8E1EA3571F7995C80088B0E4 /* View03.xib in Resources */,
 				75683A201F5719F200018831 /* Assets.xcassets in Resources */,
+				8E14B7FF1F7455CF00A7DF49 /* ZUButton.xib in Resources */,
+				75683A3F1F589DE700018831 /* ZUKeyboardView2.xib in Resources */,
+				8E578A9C1F7D63F200F85F53 /* ZUKeyboardView.xib in Resources */,
 				75683A1E1F5719F200018831 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1EA3371F79876D0088B0E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1EA35C1F799BBF0088B0E4 /* ZUButton.xib in Resources */,
+				8E1EA35A1F79995A0088B0E4 /* View03.m in Resources */,
+				8E3BEDE01F7CB03400C49599 /* LetterButton.xib in Resources */,
+				8E1EA3591F7999540088B0E4 /* View03.h in Resources */,
+				8E1EA3581F7995C80088B0E4 /* View03.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,12 +368,47 @@
 			buildActionMask = 2147483647;
 			files = (
 				75683A1B1F5719F200018831 /* ViewController.m in Sources */,
+				8E14B7FD1F7455CF00A7DF49 /* ZUButton.m in Sources */,
+				8E14B8031F7456F100A7DF49 /* ZUTestButton.m in Sources */,
+				8E7BD65A1F80E2DE003D6715 /* ZULetterRow.m in Sources */,
+				8E3BEDE31F7CB2ED00C49599 /* ZULetterButtonView.m in Sources */,
+				8E3BEDD71F7C170500C49599 /* ZULetterKeysView.m in Sources */,
+				8E7BD6591F80E2DA003D6715 /* ZULetter.m in Sources */,
+				7504BC691F705CA800C4DE7D /* ZUViewTest.m in Sources */,
+				8E3BEDDB1F7C1DD300C49599 /* ZUKeyboardView.m in Sources */,
+				8E1EA3541F7995B40088B0E4 /* View03.m in Sources */,
+				8E7BD65B1F80E2E0003D6715 /* ZUAlphabet.m in Sources */,
 				75683A181F5719F200018831 /* AppDelegate.m in Sources */,
 				75683A151F5719F200018831 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8E1EA3351F79876D0088B0E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3BEDE41F7CB2ED00C49599 /* ZULetterButtonView.m in Sources */,
+				8E1EA35B1F799BB90088B0E4 /* ZUButton.m in Sources */,
+				8E1EA3511F79953F0088B0E4 /* ZUKeyboardView.xib in Sources */,
+				8E578AC71F7D8A6800F85F53 /* ZUAlphabet.m in Sources */,
+				8E578AC41F7D860E00F85F53 /* ZULetterRow.m in Sources */,
+				8E3BEDDC1F7C1DD300C49599 /* ZUKeyboardView.m in Sources */,
+				8E578AC11F7D7EA100F85F53 /* ZULetter.m in Sources */,
+				8E3BEDD81F7C170500C49599 /* ZULetterKeysView.m in Sources */,
+				8E1EA33D1F79876D0088B0E4 /* KeyboardViewController.m in Sources */,
+				8E1EA3551F7995B40088B0E4 /* View03.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E1EA3401F79876D0088B0E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E1EA3381F79876D0088B0E4 /* ZUKeyboard03 */;
+			targetProxy = 8E1EA33F1F79876D0088B0E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		75683A1C1F5719F200018831 /* Main.storyboard */ = {
@@ -189,7 +440,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -197,7 +450,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -220,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -238,7 +495,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -246,13 +505,17 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -263,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -275,6 +538,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZUKeyboardTest/ZUKeyboardTest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = PFKEF5GQ5B;
 				INFOPLIST_FILE = ZUKeyboardTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -287,11 +552,54 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ZUKeyboardTest/ZUKeyboardTest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = PFKEF5GQ5B;
 				INFOPLIST_FILE = ZUKeyboardTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AV.ZUKeyboardTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E1EA3431F79876D0088B0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = ZUKeyboard03/ZUKeyboard03.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PFKEF5GQ5B;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ZUKeyboard03/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AV.ZUKeyboardTest.ZUKeyboard03;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E1EA3441F79876D0088B0E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = ZUKeyboard03/ZUKeyboard03.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PFKEF5GQ5B;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ZUKeyboard03/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AV.ZUKeyboardTest.ZUKeyboard03;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -314,6 +622,16 @@
 				75683A291F5719F200018831 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1EA3421F79876D0088B0E4 /* Build configuration list for PBXNativeTarget "ZUKeyboard03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1EA3431F79876D0088B0E4 /* Debug */,
+				8E1EA3441F79876D0088B0E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
